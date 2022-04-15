@@ -1,7 +1,7 @@
 {
   "codeowners": ["FLH-Wayne"],
   "dependencies": [],
-  "documentation": "https://github.com/user/my_component/",
+  "documentation": "https://github.com/WaynezProg/Line_notify",
   "domain": "line_notify",
   "name": "line_notify",
   "config_flow": true,
