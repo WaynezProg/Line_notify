@@ -7,7 +7,6 @@ import voluptuous as vol
 # PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
 #     vol.Required(CONF_ACCESS_TOKEN): cv.string,
 # })
-
 class lineNotifyFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
     def __init__(self):
         """Initialize an instance of the squeezebox config flow."""
