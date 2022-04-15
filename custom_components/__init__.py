@@ -41,7 +41,6 @@ async def async_setup_entry(hass: core.HomeAssistant, entry: ConfigEntry):
         CONF_NAME: entry.options.get(CONF_NAME, entry.data.get(CONF_NAME)),
         CONF_ACCESS_TOKEN: entry.options.get(CONF_ACCESS_TOKEN, entry.data.get(CONF_ACCESS_TOKEN))
     }
-
     async def async_handle_send_message(call):
         message = call.data.get(ATTR_MESSAGE)
         image = call.data.get("image") if call.data is not None and "image" in call.data else False
