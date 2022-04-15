@@ -1,0 +1,32 @@
+{
+    "config": {
+        "flow_title": "Line notify",
+        "step": {
+            "user": {
+                "title": "Config Line notify gateway.",
+                "data": {
+                    "name": "name the token use",
+                    "access_token": "line token"
+                }
+            }
+        },
+        "error": {
+            "already_configured": "already configured"
+        },
+        "abort": {
+          "single_instance_allowed": "already configured single instance allowed"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Config Line notify gateway.",
+                "data": {
+                    "name": "name the token use",
+                    "access_token": "line token"
+                }
+            }
+        }
+
+    }
+}
